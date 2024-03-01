@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct CalendarView: View {
+    @State private var color: Color = .blue
+    @State private var date = Date.now
+    let daysOfWeek = ["M", "T"]
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            LabeledContent("Calendar Color") {
+                ColorPicker("",  selection: $color, supportsOpacity: false)
+            }
+            LabeledContent("Date/Time") {
+                DatePicker("",  selection: $date)
+            }
         }
         .padding()
     }
