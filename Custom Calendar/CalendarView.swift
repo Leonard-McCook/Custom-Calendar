@@ -10,7 +10,7 @@ import SwiftUI
 struct CalendarView: View {
     @State private var color: Color = .blue
     @State private var date = Date.now
-    let daysOfWeek = ["M", "T"]
+    let daysOfWeek = Date.capitalizedFirstLettersOfWeekdays
     var body: some View {
         VStack {
             LabeledContent("Calendar Color") {
