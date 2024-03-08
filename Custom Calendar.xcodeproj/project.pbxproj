@@ -36,6 +36,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D782DE782B9AB689002B01FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D782DE792B9AB699002B01FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D7A9F3922B917AEB00F30E36 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +69,8 @@
 		D7A9F39D2B917AEB00F30E36 /* Custom Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				D782DE792B9AB699002B01FC /* Models */,
+				D782DE782B9AB689002B01FC /* Views */,
 				D7A9F39E2B917AEB00F30E36 /* Custom_CalendarApp.swift */,
 				D7A9F3A02B917AEB00F30E36 /* CalendarView.swift */,
 				D7A9F3AC2B9398CD00F30E36 /* Date+Extension.swift */,
