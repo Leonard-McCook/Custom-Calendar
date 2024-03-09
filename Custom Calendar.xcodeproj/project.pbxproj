@@ -69,6 +69,8 @@
 		D7A9F39D2B917AEB00F30E36 /* Custom Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				D7C693B32B9C090B009C3294 /* Services */,
+				D7C693B22B9C08FF009C3294 /* ViewModel */,
 				D782DE792B9AB699002B01FC /* Models */,
 				D782DE782B9AB689002B01FC /* Views */,
 				D7A9F39E2B917AEB00F30E36 /* Custom_CalendarApp.swift */,
@@ -87,6 +89,20 @@
 				D7A9F3AE2B982B0800F30E36 /* Launch Screen.storyboard */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7C693B22B9C08FF009C3294 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D7C693B32B9C090B009C3294 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
